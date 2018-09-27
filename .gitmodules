@@ -1,0 +1,6 @@
+[submodule "buildroot"]
+	path = buildroot
+	url = git://git.buildroot.net/buildroot
+[submodule "riscv-pk"]
+	path = riscv-pk
+	url = git@github.com:pulp-platform/riscv-pk.git
