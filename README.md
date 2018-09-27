@@ -14,6 +14,6 @@ If you want only softfloat the toolchain must be compiled with
 ## Howto
 
 ```
-make all
+make bbl
 ```
 the restulting image should be in `./bbl`

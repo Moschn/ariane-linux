@@ -12,4 +12,7 @@ bbl: vmlinux
 	make -C build
 	cp build/bbl bbl
 
-all: build-folder bbl
+all: bbl
+
+clean:
+	rm -rf build bbl
