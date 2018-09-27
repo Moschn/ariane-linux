@@ -1,6 +1,5 @@
-BUILDROOT_CONFIGS := (configs/buildroot_defconfig configs/linux_defconfig)
 
-vmlinux: $(BUILDROOT_CONFIGS)
+vmlinux: 
 	mkdir -p build
 	make -C buildroot clean
 	make -C buildroot defconfig BR2_DEFCONFIG=../configs/buildroot_defconfig
